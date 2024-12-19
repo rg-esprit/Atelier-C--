@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++ Project",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}/main.cpp",
+        "${workspaceFolder}/Entreprise.cpp",
+        "${workspaceFolder}/Abonne.cpp",
+        "${workspaceFolder}/Abonnement.cpp",
+        "${workspaceFolder}/AbonnementEconomique.cpp",
+        "${workspaceFolder}/AbonnementPremium.cpp",
+        "-o",
+        "${workspaceFolder}/main.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Build project with multiple source files"
+    }
+  ]
+}

@@ -20,6 +20,7 @@ int main() {
     Abonne abonne1("Alice", 30);
     Abonne abonne2("Bob", 25);
     Abonne abonne3("mohamed", 25);
+    // added function jdida
 
     // Ajout des abonnés à l'entreprise
     entreprise.ajouterAbonne(abonne1);

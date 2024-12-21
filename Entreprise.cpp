@@ -46,6 +46,7 @@ void Entreprise::passageNiveauAbonnement(int idAbonnement) {
         }
     }
     throw std::runtime_error("Abonnement non trouve ou non actif");
+    // raslen changes
 }
 
 void Entreprise::affichAbNiveau(int niveau) {

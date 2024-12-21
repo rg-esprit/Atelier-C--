@@ -34,7 +34,7 @@ void Entreprise::affecterAbonnement(int idAbonnement, const std::string& pseudo)
             throw std::runtime_error("Abonne non trouve");
         }
     }
-    throw std::runtime_error("Abonnement non trouve ou non en attente");
+    throw std::runtime_error("Abonnement non trouve ou non en attente svp");
 }
 
 void Entreprise::passageNiveauAbonnement(int idAbonnement) {
